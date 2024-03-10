@@ -1,6 +1,22 @@
-CREATE TABLE IF NOT EXISTS loot (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT NOT NULL,
-    type TEXT NOT NULL,
-    coordinates TEXT NOT NULL
-);
+import sqlite3
+
+try:
+    # Connect to the SQLite database
+    conn = sqlite3.connect('backend/database.sqlite')
+    cursor = conn.cursor()
+
+    # Create the loot table if it doesn't exist
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS loot (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT NOT NULL,
+            type TEXT NOT NULL,
+            coordinates TEXT NOT NULL
+        )
+    ''')
+
+    # Commit the changes and close the connection
+    conn.commit()
+    conn.close()
+except sqlite3.Error as e:
+    print("SQLite error:", e)
