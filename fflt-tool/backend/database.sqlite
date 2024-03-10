@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS loot (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    type TEXT NOT NULL,
+    coordinates TEXT NOT NULL
+);
