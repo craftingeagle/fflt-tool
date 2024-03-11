@@ -37,13 +37,17 @@ FF LootTracker (FFLT) is a comprehensive tool designed to assist Garena Free Fir
 
 1. **Start the Backend Server:**
    ```bash
+   cd fflt-tool
+   ```
+   
+   ```bash
    cd backend
    ```
    ```bash
    python fflt.py
    ```
 
-2. **Open the Frontend Interface:**
+3. **Open the Frontend Interface:**
 - Navigate to the `frontend` directory.
 - Open the `index.html` file in a web browser.
 
