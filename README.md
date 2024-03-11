@@ -16,6 +16,10 @@ FF LootTracker (FFLT) is a comprehensive tool designed to assist Garena Free Fir
 
 3. **Set Up Virtual Environment (Optional but Recommended):**
    ```bash
+   pip install virtualenv
+   ```
+   
+   ```bash
    virtualenv venv
    ```
 
@@ -23,7 +27,7 @@ FF LootTracker (FFLT) is a comprehensive tool designed to assist Garena Free Fir
    source venv/bin/activate
    ```
 
-4. **Install Dependencies:**
+5. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
