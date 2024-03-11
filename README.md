@@ -26,7 +26,11 @@ FF LootTracker (FFLT) is a comprehensive tool designed to assist Garena Free Fir
    ```bash
    source venv/bin/activate
    ```
-
+   
+   ```bash
+   deactivate
+   ```
+   
 5. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
