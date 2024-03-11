@@ -5,6 +5,7 @@ FF LootTracker (FFLT) is a comprehensive tool designed to assist Garena Free Fir
 ## Installation 🔧
 
 1. **Clone the Repository:**
+   
    ```bash
    git clone https://github.com/craftingeagle/fflt-tool.git
    ```
@@ -26,12 +27,20 @@ FF LootTracker (FFLT) is a comprehensive tool designed to assist Garena Free Fir
    ```bash
    source venv/bin/activate
    ```
+4. **Install Flask**
+  
+  ```bash
+  pip install flask
+  ```
+   
+5. **Close Virtual Environment**
    
    ```bash
    deactivate
    ```
    
-5. **Install Dependencies:**
+6. **Install Dependencies:**
+   
    ```bash
    pip install -r requirements.txt
    ```
