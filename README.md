@@ -27,11 +27,12 @@ FF LootTracker (FFLT) is a comprehensive tool designed to assist Garena Free Fir
    ```bash
    source venv/bin/activate
    ```
+   
 4. **Install Flask**
   
-  ```bash
-  pip install flask
-  ```
+    ```bash
+    pip install flask
+    ```
    
 5. **Close Virtual Environment**
    
