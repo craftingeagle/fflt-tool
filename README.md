@@ -33,14 +33,8 @@ FF LootTracker (FFLT) is a comprehensive tool designed to assist Garena Free Fir
     ```bash
     pip install flask
     ```
-   
-5. **Close Virtual Environment**
-   
-   ```bash
-   deactivate
-   ```
-   
-6. **Install Dependencies:**
+    
+5. **Install Dependencies:**
    
    ```bash
    pip install -r requirements.txt
@@ -57,23 +51,34 @@ FF LootTracker (FFLT) is a comprehensive tool designed to assist Garena Free Fir
    ```bash
    cd backend
    ```
+   
    ```bash
    python fflt.py
    ```
+   
+2. **Close Virtual Environment**
+   
+   ```bash
+   deactivate
+   ```
 
-3. **Open the Frontend Interface:**
+**Open the Frontend Interface:**
+
 - Navigate to the `frontend` directory.
 - Open the `index.html` file in a web browser.
 
-3. **Customize Settings (Optional):**
+**Customize Settings (Optional):**
+
 - Adjust marker sizes, colors, and other settings as needed.
 - Explore advanced features such as loot type filtering and real-time updates.
 
-4. **Track Loot Drops:**
+**Track Loot Drops:**
+
 - As you navigate the map in Garena Free Fire matches, use the FFLT interface to track loot drops and spawn points.
 - Strategize your movements and optimize loot collection routes based on the information provided.
 
-5. **Maximize Your Loot:**
+**Maximize Your Loot:**
+
 - Utilize FFLT to enhance your gameplay experience, maximize loot acquisition, and gain a competitive advantage in Garena Free Fire matches.
 
 ## Feedback and Contributions 🚀
